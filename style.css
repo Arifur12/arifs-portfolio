@@ -17,6 +17,9 @@ section{
 img{
     width: 400px;
 }
+.top-banner{
+    background-image: image("images/top-banner.png");
+}
 .halfWidth{
     float: left;
     width: 40%;
@@ -44,33 +47,30 @@ img{
     background-repeat: no-repeat;
     background-position:left;
 }
-
-.third-section {
-    margin-top: 150px;
-    margin-bottom: 50px;
+.third-section-heading{
+    font-weight: 900;
     text-align: center;
-    background-image: url("images/latest-work-bg.png");
+    margin: auto;
+}
+.third-section {
+    background-image: image("images/latest-work-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 300px;
+    height: 300px;
+    text-align: center;
     background-size: cover;
     background-position: right top;
 }
-.third-section .box-grid {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+.tmg{
+    margin: auto;
+    padding: 5px;
+    width: 25%;
+    height: 300px;
 }
-.third-section {
-    text-align: center;
-}
-.third-section .latest-work .work1 img {
-    margin-left: 140px;
-}
-.third-section .latest-work .latest-work-img img {
-    height: 250px;
-    width: 350px;
-    align-items: center;
-}
-.third-section .latest-work .work2 img {
-    margin-left: 50px;
+.tmg:hover{
+    background-color: grey;
+    box-shadow: 5px 5px 5px grey;
 }
 .client-area {
     background-image: url("images/footer-bg.png");
